@@ -1,7 +1,7 @@
 font_awesome.dart
 =================
 
-A Dart package for Font Awesome.
+A Dart wrapper around Font Awesome.
 
 ### About
 
@@ -9,10 +9,13 @@ Font Awesome by Dave Gandy - [fontawesome.io](http://fontawesome.io/).
 
 ### Usage
 
+In your `pubspec.yaml` file's `dependencies` section, add:
+
+    font_awesome: any
+
 In your html file, add:
 
     <link rel="stylesheet" href="packages/font-awesome/css/font-awesome.min.css">
-
 
 And then do something awesome, like:
 
